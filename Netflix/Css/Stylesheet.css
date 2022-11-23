@@ -1,3 +1,6 @@
+*{
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -95,7 +98,7 @@ header {
   font-size: 65px;
   margin: 0;
 }
-.area2 h3{
+.area2 p{
   font-size: 31px;
   margin: 0;
 }
@@ -123,7 +126,7 @@ header {
   font-size: 65px;
   margin: 0;
 }
-.area3 h3{
+.area3 p{
   font-size: 31px;
   margin: 0;
 }
@@ -142,7 +145,7 @@ header {
   font-size: 65px;
   margin: 0;
 }
-.area4 h3{
+.area4 p{
   font-size: 31px;
   margin: 0;
 }
@@ -168,7 +171,7 @@ header {
   font-size: 65px;
   margin: 0;
 }
-.area5 h3{
+.area5 p{
   font-size: 31px;
   margin: 0;
 }
