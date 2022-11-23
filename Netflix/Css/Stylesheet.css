@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 22px 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#Netflixlogo {
+  width: 150px;
+}
+.Signin_button button {
+  padding: 7px 17px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 900;
+}
+.Signin_button a {
+  text-decoration: none;
+  color: white;
+}
+.first_section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.013),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(./background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 8px solid #222;
+}
+.area{
+    color: white;
+    text-align: center;
+    margin: 10%;
+}
+.area h1{
+    font-size: 65px;
+    margin: 0;
+}
+.area h3{
+    font-size: 31px;
+    margin: 0;
+}
+.area p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.nextarea{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nextarea input{
+    width: 500px;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.nextarea button{
+    width: 200px;
+    height: 54px;
+    background-color: #e50914;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 1px;
+}
+.second_section{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+}
+.area2{
+  color: white;
+  margin: 0;
+  padding: 0 30px 0 100px;
+}
+.area2 h1{
+  font-size: 65px;
+  margin: 0;
+}
+.area2 h3{
+  font-size: 31px;
+  margin: 0;
+}
+.area2 img{
+  border: 0;
+}
