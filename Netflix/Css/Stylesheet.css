@@ -102,3 +102,46 @@ header {
 .area2 img{
   border: 0;
 }
+.third_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-bottom: 8px solid #222;
+  padding: 20px 60px;
+}
+.third_section img{
+  width: 40%;
+}
+.area3{
+  color: white;
+  /* border-left: 50px; */
+  padding: 0 100px 0 50px;
+}
+.area3 h1{
+  font-size: 65px;
+  margin: 0;
+}
+.area3 h3{
+  font-size: 31px;
+  margin: 0;
+}
+.fourth_section{
+  border-bottom: 8px solid #222;
+  background-color: black;
+  padding
+}
+.area4{
+  color: white;
+  /* border-left: 50px; */
+  padding: 0 100px 0 50px;
+}
+.area4 h1{
+  font-size: 65px;
+  margin: 0;
+}
+.area4 h3{
+  font-size: 31px;
+  margin: 0;
+}
