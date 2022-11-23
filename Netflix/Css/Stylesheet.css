@@ -130,12 +130,13 @@ header {
 .fourth_section{
   border-bottom: 8px solid #222;
   background-color: black;
-  padding
+  padding: 50px 100px;
 }
 .area4{
   color: white;
   /* border-left: 50px; */
   padding: 0 100px 0 50px;
+  width: 45%;
 }
 .area4 h1{
   font-size: 65px;
@@ -144,4 +145,122 @@ header {
 .area4 h3{
   font-size: 31px;
   margin: 0;
+}
+.fifth_section{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 45px;
+  border-bottom: 8px solid #222;
+}
+.fifth_section img{
+  width: 40%;
+  margin-left: 95px;
+}
+.area5{
+  color: white;
+  width: 50%;
+  margin-left: 50px;
+}
+.area5 h1{
+  font-size: 65px;
+  margin: 0;
+}
+.area5 h3{
+  font-size: 31px;
+  margin: 0;
+}
+.sixth_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  border-bottom: 8px solid #222;
+}
+.sixth_section .container{
+  width: 58%;
+  background-color: #303030;
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 5px 20px;
+}
+.sixth_section h1{
+  font-size: 65px;
+  
+}
+.sixth_section div p{
+  font-size: 30px;
+}
+.sixth_section p{
+  font-size: 25px;
+  margin-top: 50px;
+}
+.sixth_section .textcontainer{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.sixth_section .textcontainer input{
+  width: 500px;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.sixth_section .textcontainer button{
+  width: 200px;
+  height: 54px;
+  background-color: #e50914;
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 1px;
+}
+.seventh_section{
+  color: #737373;
+  background-color: black;
+  margin: 0;
+  padding: 70px 300px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.seventh_section .area7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+.seven{
+  display: flex;
+  flex-direction: column;
+}
+.seven a{
+  text-decoration: none;
+  color: #737373;
+  margin: 5px;
+}
+.seven a:hover{
+  text-decoration: underline;
+}
+.seventh_section .a7{
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  color: #737373; 
+}
+.seventh_section .a7:hover{
+  text-decoration: underline;
 }
