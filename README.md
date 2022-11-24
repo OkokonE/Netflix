@@ -5,6 +5,6 @@ Description:
 
 Setup/Installation Requirement:
 - Access github on a web browser
-- Clone from https://github.com/OkokonE/Netflix/tree/main/Netflix
+- Clone from https://github.com/OkokonE/Netflix
 
 Live Demo: https://okokone.github.io/Netflix/
